@@ -16,24 +16,52 @@
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
 
-int main() {
+    int main(){
+      
+        char estado[20];
+        char cidade[20];
+        char codigo[10];
+        int populacao;
+        float area;
+        float pib;
+        int turisticos;
 
+         printf("Estado:\n");
+         scanf("%c\n", &estado );
+        
+         printf("Cidade:\n");
+         scanf("%c\n",&cidade);
 
- char estado[20];
- char codigo[10];
- char cidade[20];
- int populacao;
- float area;
- float pib;
- int turisticos;
+         printf("Código:\n");
+         scanf("%c\n", &codigo);
 
-   printf("**Desafio Super Trunfo**\n");
-
-   printf("Estado:\n Código:\n Cidade:\n População:\n Área:\n Pib:\n Pontos Turisticos:\n", estado, codigo, cidade, populacao, area, pib ,turisticos);
-   
-   scanf(" %c\n ,%c\n ,%c\n ,%d\n ,%f\n ,%f\n ,%d\n", &estado, &codigo, &cidade, &populacao, &area, &pib, &turisticos ); 
-
+         printf("População:\n");
+         scanf("%d\n", &populacao);
     
+         printf("Área:\n");
+         scanf("%f\n", &area);
 
-    return 0;
-}
+         printf("Pib:\n");
+         scanf("%f\n", &pib);
+
+         printf("Pontos Turisticos:\n");
+         scanf("%d\n", &turisticos);
+
+
+         printf("Estado:%c\n", estado);
+
+         printf("Cidade:%c\n", cidade);
+
+         printf("Código:%c\n", codigo);
+
+         printf("População:%d\n", populacao);
+         
+         printf("Área:%f\n", area);
+         
+         printf("Pib:%f\n", pib);
+
+         printf("Pontos Turisticos:%d\n", turisticos);
+        
+return 0;
+
+     }
