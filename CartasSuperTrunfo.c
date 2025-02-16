@@ -26,6 +26,8 @@
         float pib;
         int turisticos;
 
+         printf("**Desafio Super Trunfo**")
+        
          printf("Estado:\n");
          scanf("%c\n", &estado );
         
